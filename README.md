@@ -1,3 +1,9 @@
+# 🔍 Port Scanner Project – Python + Nmap
+
+🇫🇷 [Lire en Français](#-projet-de-scanner-de-ports-python--nmap) · 🇬🇧 [Read in English](#-port-scanner-project-python--nmap)
+
+---
+
 # 🔍 Port Scanner Project (Python + Nmap)
 
 Ce projet démontre ma compréhension des **sockets en Python** et de l'outil **Nmap** pour réaliser des scans de ports sur une machine cible.
