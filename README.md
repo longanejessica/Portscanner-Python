@@ -74,7 +74,93 @@ python port_scanner_with_nmap.py
 Le script affiche les ports **ouverts** avec deux approches différentes.
 
 --- 
-
+## 📌 Autheur
 Jessica Longane
 Formation Cybersécurité — BeCode  
 Projet personnel — Port scanning & sockets
+
+# 🔍 Port Scanner Project (Python + Nmap)
+
+[🇫🇷 Lire en français](./README.md)
+
+This project demonstrates my understanding of **Python sockets** and the use of **Nmap** to scan ports on a target machine.
+
+## 🎯 Objective
+
+Build a custom **port scanner** using Python sockets, compare results with **Nmap**, and explain how sockets and TCP/IP protocols work.
+
+---
+
+## 🧱 Project Contents
+
+- `port_scanner_pw.py`  
+  → Custom port scanner using `socket` and `connect_ex()` to test ports one by one.
+
+- `nmap_port_scan.py`  
+  → Scanner using `nmap` through the `python-nmap` library.
+
+- `port_scanner_with_nmap.py`  
+  → Combined version running both socket scan and Nmap scan to compare results.
+
+---
+
+## ⚙️ Requirements
+
+```bash
+pip install python-nmap
+```
+
+⚠️ You must also have **Nmap** installed:
+- On Linux: `sudo apt install nmap`
+- On Mac: `brew install nmap`
+- On Windows: download from [nmap.org](https://nmap.org)
+
+---
+
+## 🚀 Running the Scripts
+
+### 🔸 Custom Python Scanner
+```bash
+python port_scanner_pw.py
+```
+
+### 🔸 Nmap-based Scanner
+```bash
+python nmap_port_scan.py
+```
+
+### 🔸 Comparison of Both
+```bash
+python port_scanner_with_nmap.py
+```
+
+---
+
+## 🧠 What I’ve learned
+
+✅ How sockets work:  
+→ A socket is a logical network plug that enables communication between a client and a server.
+
+✅ Role of ports:  
+→ Each port maps to a specific service (SSH = 22, HTTP = 80…).
+
+✅ TCP vs UDP:  
+→ TCP is reliable and connection-oriented (3-way handshake), UDP is faster but less reliable.
+
+✅ Nmap usage:  
+→ More powerful and complete, but heavier. My socket-based scanner is lightweight and simple.
+
+---
+
+## 📚 Expected Output
+
+Each script shows the **open ports** using two scanning approaches.
+
+---
+
+## 📌 Author
+
+Jessica Longane  
+Cybersecurity Training — BeCode  
+Personal Project — Port scanning & sockets
+
