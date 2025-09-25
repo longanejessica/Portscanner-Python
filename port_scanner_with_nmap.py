@@ -19,7 +19,7 @@ if __name__ == "__main__":
     scan_ports(target_ip, start_port, end_port)
 
 # ================================
-# 🔍 SCAN COMPLÉMENTAIRE AVEC NMAP
+#  SCAN COMPLÉMENTAIRE AVEC NMAP
 # ================================
 try:
     import nmap
@@ -38,7 +38,7 @@ try:
                     print(f"  [Nmap] Port {port} : {state}")
 
     if __name__ == "__main__":
-        # 🔁 Appel complémentaire de Nmap
+        # Appel complémentaire de Nmap
         scan_with_nmap(target_ip, "20-100")
 
 except ImportError:

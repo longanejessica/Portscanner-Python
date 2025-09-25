@@ -89,3 +89,5 @@ python port_scanner_pw.py
 **Jessica Longane**  
 Cybersecurity Training – BeCode  
 September 2025
+
+### This project has been done in a safe and controlled VM, the test and execution have been according to cybersecurity laws.
